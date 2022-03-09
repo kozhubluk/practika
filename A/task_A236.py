@@ -9,9 +9,9 @@ import traceback
 
 
 def max_three_sum(arr):
-    max1 = -100000
-    max2 = -100000   
-    max3 = -100000
+    max1 = arr[0]
+    max2 = arr[0]   
+    max3 = arr[0]
     for i in range(len(arr)):
         if arr[i] > max1:
             max3 = max2
