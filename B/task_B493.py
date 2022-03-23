@@ -83,6 +83,7 @@ def wiki_function():
         else:
             new_wiki_lines.append(l)
             l = txt_arr[i]
+    new_wiki_lines.append(l)
     print("В файл будет записан следующий текст:")
     for w in new_wiki_lines:
         print(w)
